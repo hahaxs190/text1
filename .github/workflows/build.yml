@@ -35,9 +35,9 @@ jobs:
         buildozer android debug
 
     - name: Upload APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: android-apk
-        path: bin/*.apk
+        name:         名称：安卓-APK
+        path:         路径：bin/*.apk
 
 
